@@ -7,7 +7,13 @@ const nome = ['Marco', 'Sandro', 'Federico', 'Sonia', 'Sara', 'Antonio', 'Veroni
 
 const cognome = ['Reali', 'Perini', 'Fusardi', 'Retioni', 'Lastuni'];
 
-let randomName = nome[Math.floor(Math.random() * nome.length)];
-let randomSurname = cognome[Math.floor(Math.random() * cognome.length)];
+for (let i = 0; i < 3; i++) {
 
-console.log(randomName + randomSurname);
+    let randomName = Math.floor(Math.random() * nome.length);
+
+    let randomSurname = Math.floor(Math.random() * cognome.length);
+
+    console.log(randomName + randomSurname);
+}
+
+
