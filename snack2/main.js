@@ -6,7 +6,7 @@
 
 const valore = number(prompt('inserisci un numero'));
 
-if (valore % 2 === 0) {
+if (valore % 2 == 0) {
     console.log(valore);
 } else {
     console.log(valore + 1);
