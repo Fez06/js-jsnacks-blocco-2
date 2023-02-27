@@ -9,9 +9,9 @@ const cognome = ['Reali', 'Perini', 'Fusardi', 'Retioni', 'Lastuni'];
 
 for (let i = 0; i < 3; i++) {
 
-    let randomName = Math.floor(Math.random() * nome.length);
+    const randomName = Math.floor(Math.random() * nome.length);
 
-    let randomSurname = Math.floor(Math.random() * cognome.length);
+    const randomSurname = Math.floor(Math.random() * cognome.length);
 
     console.log(randomName + randomSurname);
 }
